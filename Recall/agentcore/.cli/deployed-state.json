@@ -1,0 +1,22 @@
+{
+  "targets": {
+    "default": {
+      "resources": {
+        "runtimes": {
+          "RecallAgent": {
+            "runtimeId": "Recall_RecallAgent-hO0InS8BI0",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-1:397345411365:runtime/Recall_RecallAgent-hO0InS8BI0",
+            "roleArn": "arn:aws:iam::397345411365:role/AgentCore-Recall-default-ApplicationAgentRecallAgen-q8ZAUNxsBTtp"
+          },
+          "D1NotificationsAgent": {
+            "runtimeId": "Recall_D1NotificationsAgent-Ck1bLUBIBU",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-1:397345411365:runtime/Recall_D1NotificationsAgent-Ck1bLUBIBU",
+            "roleArn": "arn:aws:iam::397345411365:role/AgentCore-Recall-default-ApplicationAgentD1Notifica-FkGZT0v3HFv0"
+          }
+        },
+        "stackName": "AgentCore-Recall-default",
+        "deployHash": "c03af3645ed3963b"
+      }
+    }
+  }
+}
